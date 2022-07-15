@@ -1,0 +1,77 @@
+/* Start header */
+@media (min-width: 541px) and (max-width: 992px) {
+  .navbar .navbar-nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-top: 1px solid #e7e7e7;
+      margin-top: 20px;
+  }
+}
+/* End header */
+
+/* Start landing */
+@media (max-width: 540px) {
+  .landing .info h5 {
+      font-size: 10px !important;
+  }
+  .landing .info h2 {
+      font-size: 40px !important;
+  }
+  .landing .info .buton {
+      flex-direction: column !important;
+  }
+  .landing .info .buton a {
+      margin: 10px 0 !important;
+  }
+  .landing .down {
+      bottom: 0 !important;
+  }
+}
+/* End landing */
+
+/* Start Services */
+@media (max-width: 540px) {
+  .Services .box {
+      margin-top: 30px !important;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 992px) {
+  .Services .box {
+      margin-top: 30px !important;
+  }
+  .Services .box h5::after {
+      left: 47% !important;
+  }
+}
+/* End Services */
+
+/* start contact */
+@media (max-width: 540px) {
+  .contact .about,
+  .contact .ch-contact {
+      padding: 60px 30px !important;
+      margin: 10px;
+      width: 95%;
+  }
+  .contact .about {
+      margin-right: 0px !important;
+  }
+  .contact .about h2::before {
+      left: 130px !important;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 992px) {
+  .contact .about,
+  .contact .ch-contact {
+      padding: 60px 30px !important;
+      margin: 10px;
+      width: 95%;
+  }
+  .contact .about h2::before {
+      left: 312px !important;
+  }
+}
+/* End contact */
